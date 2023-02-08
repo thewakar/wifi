@@ -13,7 +13,7 @@ loginButton.addEventListener("click", (e) => {
     if (username === "user" && password === "web_dev") {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
-        window.location.href='htttps://www.bespecial.ml';
+        location.href='htttps://www.bespecial.ml';
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
