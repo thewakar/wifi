@@ -10,12 +10,27 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "web_dev") {
+    if (username === "user1" && password === "web_dev") {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
         window.location.href='/iiieee.html/';
-    } else {
+    }
+    else if (username === "user2" && password === "web_dev") {
+        // If the credentials are valid, show an alert box and reload the page
+        alert("You have successfully logged in.");
+        window.location.href='/iiieer.html/';
+    }
+    
+    else if (username === "user3" && password === "web_dev") {
+        // If the credentials are valid, show an alert box and reload the page
+        alert("You have successfully logged in.");
+        window.location.href='/iiiehe.html/';
+    } 
+    
+    
+    else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
     }
+    
 })
