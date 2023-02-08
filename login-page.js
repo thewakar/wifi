@@ -20,7 +20,7 @@ loginButton.addEventListener("click", (e) => {
         alert("You have successfully logged in.");
         window.location.href='/iiieer.html/';
     }    
-    else if (username === "user3" && password === "web_dev") {
+    else if (username === "user3" && password === "user3") {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
         window.location.href='/iiiehe.html/';
